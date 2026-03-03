@@ -1,0 +1,1 @@
+# minmax-triangle-path
