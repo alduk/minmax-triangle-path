@@ -1,7 +1,5 @@
 # MinMax Triangle Path
 
-# MinMax Triangle Path
-
 This is a structural Scala 3 project that reads a triangle structure of numbers from standard input and identifies two different paths from top to bottom:
 1. The path that yields the **minimum** sum.
 2. The path that yields the **maximum** sum. 
