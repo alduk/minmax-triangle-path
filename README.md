@@ -1,11 +1,15 @@
 # MinMax Triangle Path
 
-This is a structural Scala 3 project that reads a triangle structure of numbers from standard input and identifies the path from top to bottom that yields the minimum sum. 
+# MinMax Triangle Path
+
+This is a structural Scala 3 project that reads a triangle structure of numbers from standard input and identifies two different paths from top to bottom:
+1. The path that yields the **minimum** sum.
+2. The path that yields the **maximum** sum. 
 
 ## Requirements
 
-- [Java Development Kit (JDK) 11+](https://adoptium.net/)
-- [SBT (Scala Build Tool)](https://www.scala-sbt.org/download.html)
+- [Java Development Kit (JDK) 11+]
+- [SBT (Scala Build Tool)]
 
 ## How to Build and Run
 
@@ -26,6 +30,13 @@ You can now use standard input redirection to pipe your triangle file into the p
 
 ```bash
 java -jar target/scala-3.3.1/minmax-triangle-path-assembly-0.1.0-SNAPSHOT.jar < data_small.txt
+```
+
+This will print out both the minimal path and the maximal path computations:
+
+```
+Minimal path is: 7 + 6 + 3 + 2 = 18
+Maximal path is: 7 + 6 + 8 + 10 = 31
 ```
 
 Alternatively, you could pipe input over via `cat`:
